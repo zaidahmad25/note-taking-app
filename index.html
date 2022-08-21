@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Taking App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>Note Taking App</h2>
+    </header>
+    
+    <section class="input-area">
+        <div class="flex-container">
+        <label for="input">Enter your note here</label>
+        <textarea name="input" id="note"></textarea>
+        <button onclick="postNote()">Create Note</button>
+        </div>
+    </section>
+
+    <div class="line">
+        <hr>
+    </div>
+
+    <section class="notes">
+        <p class="bfr">Your notes will appear here...</p>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
